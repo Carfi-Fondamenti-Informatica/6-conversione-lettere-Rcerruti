@@ -1,1 +1,4 @@
-
+#ifndef CONVERSIONE_NUMERO_LETTERA_LIB_H
+#define CONVERSIONE_NUMERO_LETTERA_LIB_H
+bool funzione(char, char & );
+#endif //CONVERSIONE_NUMERO_LETTERA_LIB_H
