@@ -7,10 +7,8 @@ bool funzione(char a, char &conversione){
         risultato=true;
         if(a<=122 && a>=97){
             conversione=a-32;
-            return conversione;
         }else if(a>=65 && a<=90){
             conversione=a+32;
-            return conversione;
         }
     }else{
         risultato=false;
