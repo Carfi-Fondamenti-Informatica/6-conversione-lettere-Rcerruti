@@ -1,5 +1,13 @@
 #include <iostream>
-
-int main(){
-  return 0;
+#include "lib.h"
+using namespace std;
+int main() {
+    char a, conversione=0;
+    cin>>a;
+    if(funzione(a, conversione)){
+        cout<<conversione;
+    }else{
+        cout<<"errore";
+    }
+    return 0;
 }
