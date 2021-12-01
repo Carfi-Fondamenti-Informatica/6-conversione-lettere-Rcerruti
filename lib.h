@@ -1,1 +1,1 @@
-bool funzione( char, char);
+bool funzione( char);
