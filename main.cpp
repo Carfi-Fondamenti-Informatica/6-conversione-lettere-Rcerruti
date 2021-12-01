@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     char a, conversione=0;
     cin>>a;
-    if(funzione(a, & conversione)){
+    if(funzione(a,  conversione)){
         cout<<conversione;
     }else{
         cout<<"errore";
